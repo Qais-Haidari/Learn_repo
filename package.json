@@ -1,0 +1,17 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Frontend": "npm start --prefix Frontend",
+    "Backend": "npm start --prefix Backend",
+    "GraphQL": "npm start --prefix GraphQL",
+    "Dev": "concurrently \"npm run Frontend\" \"npm run Backend\" \"npm run GraphQL\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
